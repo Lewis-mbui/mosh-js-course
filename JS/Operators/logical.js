@@ -14,3 +14,23 @@ let applicationRefused = !eligibleForLoan;
 
 console.log('Eligible', eligibleForLoan);
 console.log('Application Refused', applicationRefused);
+
+// NON-BOOLEAN OPERANDS
+// Falsy (False):
+// undefined
+// null
+// false
+// ''
+// NaN
+
+// Anything that is not Falsy --> Truthy
+
+// SHORTCIRCUITING AND DEFAULT VALUES
+let userColor = 'red';
+let defaultColor = 'blue';
+
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
+
+
