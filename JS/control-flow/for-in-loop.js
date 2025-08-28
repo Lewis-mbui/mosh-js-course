@@ -3,8 +3,8 @@ let person = {
   age: 23
 };
 
-for (key in person) console.log(key, person[key]);
+for (let key in person) console.log(key, person[key]);
 
 let colors = ['red', 'green', 'blue'];
 
-for (index in colors) console.log(index, colors[index]);
+for (let index in colors) console.log(index, colors[index]);
