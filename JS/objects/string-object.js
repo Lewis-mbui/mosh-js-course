@@ -4,6 +4,7 @@ const message = 'This is my friend\'s first message';
 // String Object
 const another = new String('Hi');
 
+// Some Properties and methods
 console.log(message.length);
 console.log(message[0]);
 console.log(message.includes('my'));
