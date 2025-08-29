@@ -10,6 +10,6 @@ for (let key in circle) another[key] = circle[key];
 
 // let another = Object.assign({}, circle);
 
-// let another = { ...circle };
+// let another = { ...circle }; //spread operator
 
 console.log(another);
