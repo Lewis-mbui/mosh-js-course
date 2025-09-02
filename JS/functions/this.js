@@ -1,5 +1,5 @@
-// method --> object
-// function --> global (window)
+// for methods --> object
+// for functions --> global (window)
 
 /*
 const video = {
@@ -19,7 +19,7 @@ const video = {
   showTags() {
     this.tags.forEach(function(tag) {
       console.log(this.title, tag);
-    }, this); //passed the object into the forEach Method
+    }, this); //passed the object as an argument to the forEach function
   }
 };
 
