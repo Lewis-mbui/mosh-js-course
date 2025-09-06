@@ -19,7 +19,7 @@ const circle = new Circle(10);
 console.log(circle.getDefaultLocation());
 */
 
-// Method 2:
+// Method 2 (BEST WAY):
 function Circle(radius) {
   this.radius = radius;
 
