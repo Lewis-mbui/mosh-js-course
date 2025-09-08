@@ -1,3 +1,5 @@
+// The stopwatch is now unreliable since we
+// can set the duration i.e. sw.duration = 10;
 // Premature Optimization is the root of all EVILS!!
 
 function StopWatch() {
