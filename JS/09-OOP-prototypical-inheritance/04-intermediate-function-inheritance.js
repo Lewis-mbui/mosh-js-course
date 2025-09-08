@@ -20,7 +20,6 @@ function Circle(radius, color) {
 
 extend(Circle, Shape);
 
-
 Circle.prototype.draw = function() {
   console.log('draw');
 }
