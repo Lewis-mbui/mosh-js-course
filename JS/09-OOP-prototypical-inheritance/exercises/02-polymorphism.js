@@ -28,7 +28,7 @@ function HtmlSelectElement(items) {
 <select>${this.items.map(item => `
   <option>${item}</option>`).join('')}
 </select>`;
-}
+  }
 }
 
 
