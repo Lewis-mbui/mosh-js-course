@@ -12,7 +12,8 @@ class Shape {
 class Circle extends Shape {
   constructor(color, radius) {
     // super sets all the instance methods and props
-    // to the childs instance members
+    // to the childs instance members by calling the Parent's
+    // constructor
     super(color);
     this.radius = radius;
   }
